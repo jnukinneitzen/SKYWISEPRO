@@ -1,0 +1,9 @@
+#Causal Interpretation :
+
+Cluster 0 (Image 1): This looks like  a "Fog/Smog" regime. The high importance of Wind Direction and Dew Point Depression suggests that visibility here is caused by local air saturation or moisture being blown in from a specific source.
+
+Cluster 1 (Image 2): This is a "Humidity/Temperature" regime. The clean, long tails for Relative Humidity and DRYBULBTEMPF suggest that visibility is driven by large-scale atmospheric changes in moisture and heat.
+
+Cluster 2 (Image 3): This is the "Dynamic/Active" regime. The significant impact of Wind Direction (blue dots far to the left) and Wind Speed suggests that visibility in this cluster is likely affected by wind-driven events—perhaps dust, haze, or rapid clearing due to high winds.
+
+Note: DUEPOINTDEPRESSION =DRYBULBTEMPF-DewPointTempF

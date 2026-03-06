@@ -1,0 +1,12 @@
+REQUIREMENTS
+
+streamlit
+requests
+pandas
+plotly
+fastapi
+uvicorn
+joblib
+scikit-learn==1.3.2
+shap
+numpy
