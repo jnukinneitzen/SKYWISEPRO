@@ -76,11 +76,11 @@ st.sidebar.divider()
 st.sidebar.info("System optimized for production-level inference tracking.")
 
 # --- MAIN DASHBOARD ---
-st.title("🌤️ SkyWise Pro: Aviation Expert System")
+st.title(" SKYWISE PRO")
 st.markdown("Real-time visibility forecasting using **MoE Architecture** and **SHAP Causal Inference**.")
 
 if st.session_state['multi_data']:
-    tab1, tab2 = st.tabs(["📊 Fleet Overview", "🧠 Deep-Dive Analysis"])
+    tab1, tab2 = st.tabs([" Fleet Overview", " Deep-Dive Analysis"])
 
     # --- TAB 1: FLEET OVERVIEW ---
     with tab1:
@@ -91,7 +91,7 @@ if st.session_state['multi_data']:
                 vis_raw = data.get('visibility', {})
                 c_vis = float(vis_raw.get('miles_float', 10.0) if isinstance(vis_raw, dict) else (vis_raw or 10.0))
                 
-                st.subheader(f"📍 {icao}")
+                st.subheader(f" {icao}")
                 st.metric("Current Vis", f"{c_vis} mi")
                 
                 # Defensive Feature Engineering
