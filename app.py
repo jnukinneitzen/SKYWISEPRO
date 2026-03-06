@@ -5,7 +5,7 @@ import plotly.express as px
 from datetime import datetime
 
 # --- CONFIGURATION ---
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://skywisepro.onrender.com"
 CHECKWX_API_KEY = "50c133428c79479f9e05d62f33064ead"
 
 st.set_page_config(page_title="SkyWise Pro | Global Aviation AI", layout="wide", page_icon="✈️")
