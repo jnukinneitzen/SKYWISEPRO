@@ -168,7 +168,7 @@ if st.session_state['multi_data']:
                     st.error(f"Inference Error: {e}")
 
 else:
-    st.info(f"👋 Welcome, Nikunj. Select your primary hubs in the sidebar to begin fleet monitoring.")
+    st.info(f" Welcome, Select your primary hubs in the sidebar to begin fleet monitoring.")
 
 st.divider()
-st.caption("Nikunj Bisht | NSUT ECE 2026 | Production Interpretable AI System")
+st.caption("Nikunj Bisht | NSUT ECE 2023UEC4585 | Production Interpretable System")
