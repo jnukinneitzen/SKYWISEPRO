@@ -1,3 +1,5 @@
+streamlit
+altair<5
 plotly
 pandas
 scikit-learn
@@ -5,4 +7,3 @@ shap
 fastapi
 uvicorn
 requests
-streamlit
